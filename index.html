@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Shoot Game V1.6 - Not fully bug tested</title>	
+		<link href="styles.css" rel="stylesheet" type="text/css">	
+<!-- 		<script type="text/javascript"> if (!window.console) console = {log: function() {}}; </script> -->	
+	</head>
+	<body id="Body">
+		<header id ="main-header">
+			<h3>Shoot Game</h3>	
+		</header>
+		
+		<div id = "Game">
+			<canvas id="myCanvas" width="800" height="600" style="border:1px solid #000000;"></canvas>
+			
+		</div>
+		<button onclick="restartGame()" style="font-size : 40px; width: 100%; height: 60px;">Restart</button>
+		<audio controls id="music">
+			<source src="Other Stuff Folder/Powerpuff Girls - Ending.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		
+		
+		
+		<script src="js/defs.js"></script>
+		<script src="js/objects.js"></script>
+		<script src="js/enemies.js"></script>
+		<script src="js/actions.js"></script>
+		<script src="js/upgrades.js"></script>
+		<script src="js/keyPresses.js"></script>
+		<script src="js/music.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
